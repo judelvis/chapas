@@ -10,10 +10,9 @@ function verificarUsuario(){
         data:"email="+email,
         success : function(resp) {
             $("#resp").html(resp);
-            setTimeout(function(){  $("#fvpp-close").click(); }, 5000);
+            setTimeout(function(){  $("#fvpp-close").click(); }, 3000);
 
         }
     });
 
 }
-
