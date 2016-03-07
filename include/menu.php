@@ -7,7 +7,7 @@
     <nav>
         <ul>
             <li><a href="index.php"><span class="fa fa-home"></span> Inicio</a></li>
-            <li><a href="#"><span class="fa fa-star"></span> Destacados</a></li>
+            <li><a href="destacados.php"><span class="fa fa-star"></span> Destacados</a></li>
             <li><a href="categoria.php?id=1" ><span class="fa fa-bullseye" ></span> Entretenimiento</a></li>
             <li><a href="categoria.php?id=2" ><span class="fa fa-heartbeat" ></span> Salud</a></li>
             <li><a href="categoria.php?id=3" ><span class="fa fa-cutlery" ></span> Comida</a></li>
