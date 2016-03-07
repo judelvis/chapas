@@ -21,7 +21,7 @@ if (mysql_num_rows($rs) > 0) {
         ';
     }
 } else {
-    $html = "No esixten publicaciones".$query;
+    header('Location: index.php');
 }
 echo $html;
 ?>
