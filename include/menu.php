@@ -13,8 +13,12 @@
             <li><a href="categoria.php?slug=3" ><span class="fa fa-cutlery" ></span> Comida</a></li>
             <li><a href="categoria.php?slug=4" ><span class="fa fa-suitcase" ></span> Productos</a></li>
             <li><a href="categoria.php?slug=5" ><span class="fa fa-plus-circle" ></span> Otros</a></li>
-            <li><input id="searchBox" type="text" placeholder="Buscar..."><input id="searchButton" type="image"
-                                                                                 src="images/icon_searchMag.png"></li>
+            <li>
+                <form method="post" action="buscar.php">
+                <input id="searchBox" name="searchBox" type="text" placeholder="Buscar...">
+                <input id="searchButton" type="image" src="images/icon_searchMag.png">
+                </form>
+            </li>
         </ul>
     </nav>
 </header>
