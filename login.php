@@ -42,84 +42,94 @@ $strURL = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'];
     <link rel="stylesheet" href="assets/css/ie9.css"/><![endif]-->
 </head>
 <body>
-<?php include"include/menu.php";?>
+<?php include "include/menu.php"; ?>
 
 <div id="wrapper">
 
-			<div id="form-maina">
-              <div id="form-diva">
-            		<div id="contenta"> 
-                         <div id="left">    
-                             NUEVO USUARIO
-                             <p class="input">
-                                <input name="nombres" type="text"  id="nombres" placeholder="Nombres" />
-                              </p>
-                              
-                               <p class="input">
-                                <input name="apellidos" type="text"  id="apellidos" placeholder="Apellidos" />
-                              </p>
-                               <p class="input">
-                                <input name="fecha" type="text"  id="fecha" placeholder="Fecha de Nacimiento" />
-                              </p>
-                              <hr>
-                            <p class="input">
-                                <input name="emaila" type="text"  id="emaila" placeholder="E-mail" />
-                              </p>
-                              <p class="input">
-                                <input name="clave" type="text" id="clave" placeholder="Clave"  />
-                              </p>
-                               <p class="input">
-                                <button class="envia">Registrarme</button>
-                              </p>
-                          </div> 
-                          <div id="right">    
-                        	INICIAR SESIÓN
-                             
-                              <p class="input">
-                                <input name="emaila" type="text"  id="emaila" placeholder="E-mail" />
-                              </p>
-                              <p class="input">
-                                <input name="clave" type="text" id="clave" placeholder="Clave"  />
-                              </p>
-                               <p class="input">
-                                <button class="envia">Entrar</button>
-                              </p>
-                              
-                          </div>
-                      </div>
-              </div>
-            </div>  
-     		
+    <div id="form-maina">
+        <div id="form-diva">
+            <div id="contenta"> 
+                <div id="left">   
+                     NUEVO USUARIO <?php echo $_POST['code'];?>
+                    <p class="input">
+                        <input name="nombres" type="text" id="nombres" placeholder="Nombres"/>
+                    </p>
+
+                    <p class="input">
+                        <input name="apellidos" type="text" id="apellidos" placeholder="Apellidos"/>
+                    </p>
+
+                    <p class="input">
+                        <input name="fecha" type="text" id="fecha" placeholder="Fecha de Nacimiento"/>
+                    </p>
+                    <hr>
+                    <p class="input">
+                        <input name="emaila" type="text" id="emaila" placeholder="E-mail"/>
+                    </p>
+
+                    <p class="input">
+                        <input name="clave" type="text" id="clave" placeholder="Clave"/>
+                    </p>
+
+                    <p class="input">
+                        <button class="envia">Registrarme</button>
+                    </p>
+                </div>
+                 
+                <div id="right">   
+                    INICIAR SESIÓN
+
+                    <p class="input">
+                        <input name="emaila" type="text" id="emaila" placeholder="E-mail"/>
+                    </p>
+
+                    <p class="input">
+                        <input name="clave" type="text" id="clave" placeholder="Clave"/>
+                    </p>
+
+                    <p class="input">
+                        <button class="envia">Entrar</button>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <div id="footer">
-  <div class="left">
+        <div class="left">
             <p><img src="images/dev.png" style="margin-bottom:-17px;"></p>
 
             <p>&copy; Copyright 2016 ChapaChapa.com.pe</p>
         </div>
         <div class="right">
-					<ul class="copyright">
-						<li><a href="terminos.php">Terminos de uso</a></li>
-                        <li><a href="politicas.php">Politicas de privacidad</a></li>
-                        <li><a href="contacto.php">Contacto</a></li>
-					</ul>
-				</div>
+            <ul class="copyright">
+                <li><a href="terminos.php">Terminos de uso</a></li>
+                <li><a href="politicas.php">Politicas de privacidad</a></li>
+                <li><a href="contacto.php">Contacto</a></li>
+            </ul>
+        </div>
     </div>
 
-</div></div>
+</div>
+</div>
 <div id="my-welcome-message" style="background: url('images/bgpop.jpg') no-repeat center center fixed; ">
-          <br/>
-          <p><img src="images/logo.png"></p>
-			<p id="resp">A partir de este momento vas a formar parte de nuestra red de descuentos te invitamos a registrarte.</p>
-				<p><input name="mail" id="mail" class="mail" placeholder="Tu E-mail Aqui">
-                <br/>
-                <input value="Registrarse" class="envia" type="button" onclick="verificarUsuario()">
-                </p>
+    <br/>
 
-			<p class="foot">Si tiene alguna suguerencia puede escribirnos a soporte@chapchapa.com.pe</p>
-            <br/>
-        </div>
+    <p><img src="images/logo.png"></p>
+
+    <p id="resp">A partir de este momento vas a formar parte de nuestra red de descuentos te invitamos a
+        registrarte.</p>
+
+    <p><input name="mail" id="mail" class="mail" placeholder="Tu E-mail Aqui">
+        <br/>
+        <input value="Registrarse" class="envia" type="button" onclick="verificarUsuario()">
+    </p>
+
+    <p class="foot">Si tiene alguna suguerencia puede escribirnos a soporte@chapchapa.com.pe</p>
+    <br/>
+</div>
 <!-- Scripts -->
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/jquery.poptrox.min.js"></script>
@@ -130,8 +140,6 @@ $strURL = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'];
 <!--[if lte IE 8]>
 <script src="assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="js/toggle.js"></script>
-
-
 
 
 </body>

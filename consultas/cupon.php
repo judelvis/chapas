@@ -31,8 +31,12 @@ if (mysql_num_rows($rs) > 0) {
                     <br/>
 
                     <p style="float:right;">
-                        <button class="envia" type="button"><span class="fa fa-shopping-cart"></span> Comprar</button>
+                        <form action="login.php" method="post" id="frmComp" name="frmComp">
+                            <input type="hidden" value="'.$code.'" id="code" name="code">
+                            <button class="envia" type="button"><span class="fa fa-shopping-cart"></span> Comprar</button>
+                        </form>
                     </p>
+
                 </div>
         ';
     }

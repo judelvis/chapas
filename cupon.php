@@ -98,7 +98,12 @@ $strURL = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'];
 <!--[if lte IE 8]>
 <script src="assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="js/toggle.js"></script>
+<script>
+    $( ".envia" ).click(function() {
 
+        $( "#frmComp" ).submit();
+    });
+</script>
 
 </body>
 </html>
