@@ -325,8 +325,7 @@ var parallelism = (function ($) {
                         .css('height', 'auto')
                         .css('min-height', '100%')
                         .css('top', 0)
-                        .css('left', 0)
-                        .attr('title', $item.text());
+                        .css('left', 0);
 
                     // inner (for fade effect).
                     $item.wrapInner('<div class="inner" />');

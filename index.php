@@ -44,7 +44,7 @@
 			<div id="main">
 				<div id="reel">
 
-                    <?php require_once("consultas/resientes.php");?>
+                    <?php require_once("consultas/recientes.php");?>
 
 				</div>
 			</div>
@@ -56,23 +56,25 @@
 				</div>
 				<div class="right">
 					<ul class="copyright">
-						<li><a href="#">Terminos de uso</a></li>
-                        <li><a href="#">Politicas de privacidad</a></li>
-                        <li><a href="#">Contacto</a></li>
+						<li><a href="terminos.php">Terminos de uso</a></li>
+                        <li><a href="politicas.php">Politicas de privacidad</a></li>
+                        <li><a href="contacto.php">Contacto</a></li>
 					</ul>
 				</div>
 			</div>
 
 		</div>
-		<div id="my-welcome-message">
-          <p>BIENVENIDO</p>
+		<div id="my-welcome-message" style="background: url('images/bgpop.jpg') no-repeat center center fixed; ">
+          <br/>
+          <p><img src="images/logo.png"></p>
 			<p id="resp">A partir de este momento vas a formar parte de nuestra red de descuentos te invitamos a registrarte.</p>
-				<p><input name="mail" id="mail" placeholder="Dirección de E-mail">
+				<p><input name="mail" id="mail" class="mail" placeholder="Tu E-mail Aqui">
                 <br/>
-                <input value="Registrarse" type="button" onclick="verificarUsuario()">
+                <input value="Registrarse" class="envia" type="button" onclick="verificarUsuario()">
                 </p>
 
-			<p>Si tiene alguna suguerencia puede escribirnos a soporte@chapchapa.com.pe</p>
+			<p class="foot">Si tiene alguna suguerencia puede escribirnos a soporte@chapchapa.com.pe</p>
+            <br/>
         </div>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
