@@ -1,7 +1,11 @@
 <?php
 
-$conectar = mysql_connect("localhost","root","");//conectar a mysql
-$base = mysql_select_db("chapas",$conectar);//conectar a base de datos
+  $dbhost = 'localhost';
+  $dbuser = 'root';
+  $dbpass = ''; 
+  
+  $conn = mysql_connect($dbhost, $dbuser, $dbpass) or die ('Ocurrió un error al conectarse al servidor mysql');
 
-$resulado = mysql_query("SET NAMES 'utf8'", $conectar);//query para que acepte caracteres especiales
+  $dbname = 'chapas';
+  mysql_select_db($dbname);
 ?>

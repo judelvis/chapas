@@ -4,18 +4,18 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="GOOGLEBOT" content="noindex,nofollow" />
-    <meta name="robots" content="nofollow,noindex" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ChapaChapa.com.pe | Tus cupones de descuentos en un solo lugar.</title>
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300,700">
-    <link rel="stylesheet" href="./css/font-awesome.min.css">
-    <link rel="stylesheet" href="./js/libs/css/ui-lightness/jquery-ui-1.9.2.custom.min.css">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="GOOGLEBOT" content="noindex,nofollow" />
+  <meta name="robots" content="nofollow,noindex" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ChapaChapa.com.pe | Tus cupones de descuentos en un solo lugar.</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300,700">
+  <link rel="stylesheet" href="./css/font-awesome.min.css">
+  <link rel="stylesheet" href="./js/libs/css/ui-lightness/jquery-ui-1.9.2.custom.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
 
     <!-- App CSS -->
   <link rel="stylesheet" href="./css/target-admin.css">
@@ -41,7 +41,7 @@
         <i class="fa fa-cogs"></i>
       </button>
 
-      <a class="navbar-brand navbar-brand-image" href="./index.php">
+      <a class="navbar-brand navbar-brand-image" href="./index.html">
         <img src="./img/logo.png">
       </a>
 
@@ -79,47 +79,35 @@
 <div class="account-wrapper">
 
   <div class="account-logo">
-    
+    <img src="./img/logo-login.png" alt="Target Admin">
   </div>
 
     <div class="account-body">
 
-      <h3 class="account-body-title">Iniciar Sesión</h3>
+      <h3 class="account-body-title">Resetear mi Clave</h3>
 
-      <form class="form account-form" method="POST" action="./principal.php">
+      <form class="form account-form" method="POST" action="./olvido.php">
 
         <div class="form-group">
-          <label for="login-username" class="placeholder-hidden">E-Mail</label>
-          <input type="text" class="form-control" id="login-username" placeholder="E-Mail" tabindex="1">
-
+          <label for="forgot-email" class="placeholder-hidden">E-mail</label>
+          <input type="text" class="form-control" id="forgot-email" placeholder="Su E-mail" tabindex="1">
         </div> <!-- /.form-group -->
 
         <div class="form-group">
-          <label for="login-password" class="placeholder-hidden">Clave</label>
-          <input type="password" class="form-control" id="login-password" placeholder="Clave" tabindex="2">
-        </div> <!-- /.form-group -->
-
-        <div class="form-group clearfix">
-          <div class="pull-left">         
-            
-          </div>
-
-          <div class="pull-right">
-            <a href="./olvido.php">¿olvido su clave?</a>
-          </div>
-        </div> <!-- /.form-group -->
-
-        <div class="form-group">
-          <button type="submit" class="btn btn-primary btn-block btn-lg" tabindex="4">
-            Entrar
+          <button type="submit" class="btn btn-secondary btn-block btn-lg" tabindex="2">
+            Resetear &nbsp; <i class="fa fa-refresh"></i>
           </button>
         </div> <!-- /.form-group -->
 
+        <div class="form-group">
+          <a href="./index.php"><i class="fa fa-angle-double-left"></i> &nbsp;Regresar</a>
+        </div> <!-- /.form-group -->
       </form>
 
-
     </div> <!-- /.account-body -->
-    </div> <!-- /.account-wrapper -->
+
+  </div> <!-- /.account-wrapper -->
+
   <script src="./js/libs/jquery-1.10.1.min.js"></script>
   <script src="./js/libs/jquery-ui-1.9.2.custom.min.js"></script>
   <script src="./js/libs/bootstrap.min.js"></script>
@@ -129,10 +117,6 @@
   <![endif]-->
   <!-- App JS -->
   <script src="./js/target-admin.js"></script>
-  
-  <!-- Plugin JS -->
-  <script src="./js/target-account.js"></script>
-
   
 
 

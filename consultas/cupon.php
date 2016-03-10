@@ -17,17 +17,13 @@ if (mysql_num_rows($rs) > 0) {
                     <p class="til">'.$fila['nenom'].'</p>
 
                     <p class="catg">'.$fila['canom'].'</p>  
-                    <br/><br/>
+                    <br/>
 
                     <p class="catg">'.$fila['cunom'].'</p>
 
-                    <p class="catg">MONTO:'.$fila['monto'].'</p>  
-
-
-                    <p class="catg">PORCENTAJE:'.$fila['porcentaje'].'</p>  
-
-
-                    <p class="catg">EXPIRA:'.$fila['fecha_exp'].'</p>  
+                    <p class="catg">MONTO:'.$fila['monto'].' $<br/>
+                   PORCENTAJE:'.$fila['porcentaje'].' %<br/>
+                    EXPIRA:'.$fila['fecha_exp'].'</p>  
                     <br/>
 
                     <p style="float:right;">

@@ -121,8 +121,8 @@ input#nombres,input#apellidos,input#fecha,input#emaila,input#clave {
 	font-size:12px;
 	text-transform:uppercase;
     width: 80%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 7px 18px;
+    margin: 7px 0;
     box-sizing: border-box;
     border: 2px solid #ccc;
     -webkit-transition: 0.5s;
@@ -131,7 +131,7 @@ input#nombres,input#apellidos,input#fecha,input#emaila,input#clave {
 }
 
 input#nombres:focus,input#apellidos:focus,input#apellidos:focus,input#emaila:focus,input#clave:focus {
-    border: 2px solid #555;
+    border: 1px solid #555;
 }
 button.envia {
     background-color: #4CAF50;
@@ -141,6 +141,7 @@ button.envia {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+	letter-spacing:2px;
 }
 
 button.envia:hover {
@@ -504,6 +505,7 @@ text-transform:uppercase;
   padding-right: 35px;
   padding-top: 35px;
   padding-bottom: 50px;
+  margin-bottom:10px;
   width: 850px;
   float: left;
   left: 36%;

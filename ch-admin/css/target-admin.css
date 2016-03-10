@@ -109,8 +109,8 @@ h6 {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #e74c3c;
-  border-color: #df2e1b;
+  background-color: #4CAF50;
+  border-color: #4CAF50;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -118,8 +118,8 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: #df2e1b;
-  border-color: #a82315;
+  background-color: #15C823;
+  border-color:#15C823;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -372,7 +372,7 @@ fieldset[disabled] .btn-twitter.active {
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   color: #fff;
-  background-color: #e74c3c;
+  background-color: #41AFF1;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
@@ -393,7 +393,7 @@ fieldset[disabled] .btn-twitter.active {
     padding-left: 40px;
   }
   .dropdown-menu .divider {
-    background-color: #1abf9f;
+    background-color:#0A5481;
   }
 }
 .dropdown-submenu {
@@ -447,7 +447,7 @@ fieldset[disabled] .btn-twitter.active {
     border-left-color: #cccccc;
   }
   .dropdown-submenu:hover > a:after {
-    border-left-color: #e74c3c;
+    border-left-color:#41AFF1;
   }
 }
 .dropdown-submenu.pull-left {
@@ -865,7 +865,7 @@ input[type="checkbox"] {
   z-index: 501;
   min-height: 60px;
   margin-bottom: 0;
-  background-color: #222222;
+  background-color:#0E7FC3;
   border: none;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
@@ -873,10 +873,10 @@ input[type="checkbox"] {
   border-bottom-left-radius: 0;
 }
 .navbar .navbar-text {
-  color: #999999;
+  color: #CCC;
 }
 .navbar .navbar-nav > li > a {
-  color: #999999;
+  color: #CCC;
   font-size: 13px;
 }
 .navbar .navbar-nav > li > a:hover,
@@ -900,27 +900,26 @@ input[type="checkbox"] {
   padding-top: 6px;
   padding-bottom: 6px;
   margin-top: 10px;
-  color: #666;
+  color: #CCC;
   font-size: 18px;
   border-color: none;
 }
 .navbar .navbar-toggle:hover,
 .navbar .navbar-toggle:focus {
-  background-color: #333333;
+  background-color: #0A537E;
 }
 .navbar .navbar-collapse {
-  background: #222222;
+  background: #0E7FC3;
 }
 .navbar .navbar-collapse,
 .navbar .navbar-form {
-  border-color: #101010;
+  border-color: #0E7FC3;
 }
 .navbar .navbar-nav > .open > a,
 .navbar .navbar-nav > .open > a:hover,
 .navbar .navbar-nav > .open > a:focus {
   color: #ffffff;
-  background-color: #080808;
-  background-color: #1b1b1b;
+  background-color:#0A5481;
 }
 .navbar .navbar-link {
   color: #999999;
@@ -947,7 +946,7 @@ input[type="checkbox"] {
   top: -1px;
   width: 30px;
   margin-right: .65em;
-  border: 2px solid #6f6f6f;
+  border: 2px solid #0A5481;
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
   border-bottom-right-radius: 3px;
@@ -993,7 +992,7 @@ input[type="checkbox"] {
   width: 100%;
   padding: 5px 0;
   text-align: center;
-  background: #16a085;
+  background: #0E7FC3;
   border-bottom: 10px solid #fff;
 }
 .mainbar .mainbar-nav {
@@ -1008,14 +1007,14 @@ input[type="checkbox"] {
 }
 .mainbar .mainbar-nav > li > a:hover,
 .mainbar .mainbar-nav > li > a:focus {
-  background: #148e76;
+  background: #0A5481;
 }
 .mainbar .mainbar-nav > .open > a,
 .mainbar .mainbar-nav > .open > a:hover,
 .mainbar .mainbar-nav > .open > a:focus {
   color: #fff;
-  background: #159c81;
-  border-color: #148e76;
+  background: #0E7FC3;
+  border-color:#0E7FC3;
 }
 .mainbar .mainbar-toggle {
   display: block;
@@ -1057,14 +1056,14 @@ input[type="checkbox"] {
   }
   .mainbar .mainbar-nav > li > a:hover,
   .mainbar .mainbar-nav > li > a:focus {
-    border-color: #148e76;
-    background: #159c81;
+    border-color: #0E7FC3;
+    background: #0E7FC3;
   }
   .mainbar .mainbar-nav > .active > a,
   .mainbar .mainbar-nav > .active > a:hover,
   .mainbar .mainbar-nav > .active > a:focus {
     color: #fff;
-    background: #148e76;
+    background: #0A5481;
     border-color: transparent;
   }
   .mainbar .mainbar-nav > .active > a::after,
@@ -1075,7 +1074,7 @@ input[type="checkbox"] {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-top: 10px solid transparent;
-    border-top-color: #148e76;
+    border-top-color: #0A5481;
     position: absolute;
     top: 100%;
     left: 50%;
@@ -1118,7 +1117,7 @@ input[type="checkbox"] {
   .mainbar .dropdown-menu > li > a:hover,
   .mainbar .dropdown-menu > li > a:focus {
     color: #fff;
-    background-color: #117c67;
+    background-color:#0B5F91;
   }
 }
 /* ==Content [.content]*/
@@ -1236,20 +1235,19 @@ input[type="checkbox"] {
   padding-top: 4px;
   padding-bottom: 4px;
   font-size: 10px;
-  background: transparent;
-  border: 2px solid #e74c3c;
+  background: #094E77;
 }
 .navbar .noticebar > .open > a .badge {
-  background: #e74c3c;
+  background: #ccc;
 }
 @media (min-width: 768px) {
   .navbar .noticebar > li > a {
     max-height: 60px;
-    color: #3c3c3c;
+    color: #FFF;
     font-size: 19px;
   }
   .navbar .noticebar > li > a:hover {
-    color: #555555;
+    color: #CCC;
   }
   .navbar .noticebar > li > a .badge {
     position: absolute;
@@ -1817,8 +1815,7 @@ input[type="checkbox"] {
   width: 45px;
   height: 45px;
   display: block;
-  background-color: #16a085;
-  background-color: rgba(22, 160, 133, 0.3);
+  background-color:#0E7FC3;
   font-size: 16px;
   text-align: center;
   line-height: 45px;
@@ -1831,8 +1828,7 @@ input[type="checkbox"] {
 }
 #back-to-top:hover {
   text-decoration: none;
-  background-color: #16a085;
-  background-color: rgba(22, 160, 133, 0.85);
+  background-color:#1199EA;
 }
 #back-to-top i {
   color: #fff;
@@ -3085,11 +3081,7 @@ table.table thead .sorting_desc_disabled,
   z-index: 100;
   width: 100px;
   height: 100px;
-  background-color: #16a085;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
+
 }
 .account-logo::after {
   content: '';
@@ -3097,7 +3089,6 @@ table.table thead .sorting_desc_disabled,
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top: 10px solid transparent;
-  border-top-color: #16a085;
   position: absolute;
   top: 100%;
   left: 50%;
